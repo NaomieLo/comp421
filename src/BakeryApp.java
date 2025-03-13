@@ -27,13 +27,14 @@ public class BakeryApp {
             boolean quit = false;
             while (!quit) {
                 System.out.println("\n----- Bakery Management Menu -----");
-                System.out.println("1. Look up Employee by ID (Query)");
-                System.out.println("2. Add a New Customer (Modification)");
-                System.out.println("3. Place an Order (Multiple Statements)");
-                System.out.println("4. List Baked Goods (Sub-Menu)");
-                System.out.println("5. Cancel an Order (Modification with multiple steps)");
+                //System.out.println("1. Look up Employee by ID (Query)");
+                System.out.println("1. Look into inventory running low (Query)");
+                System.out.println("2. Delete expired ingredients (Modification)");
+                System.out.println("3. Update Bake Good Stock and Ingredients Inventory (Multiple Statements)");
+                System.out.println("4. Get Recipe (Sub-Menu)");
+                System.out.println("5. Place an Order (Modification with multiple steps)");
                 System.out.println("6. Quit");
-                System.out.print("Select an option (1-6): ");
+                System.out.print("Please Enter Your Option: ");
                 String choice = scanner.nextLine();
 
                 switch (choice) {
